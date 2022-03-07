@@ -5,7 +5,7 @@ function Nav() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div>
-      <nav className="bg-slate-900">
+      <nav className="bg-slate-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center">
@@ -53,9 +53,20 @@ function Nav() {
                     Link 5
                   </a>
                 </div>
-
               </div>
             </div>
+            
+            <div className="hidden md:block">
+                <div className="ml-4 flex items-center md:ml-6">
+                    <a
+                        href="https://brunobold.com"
+                        className="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-cyan-600 hover:bg-cyan-700"
+                    >
+                        Link 5
+                    </a>
+                </div>
+            </div>
+            
             <div className="-mr-2 flex md:hidden">
               <button
                 onClick={() => setIsOpen(!isOpen)}

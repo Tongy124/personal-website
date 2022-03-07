@@ -21,6 +21,6 @@ a {
 
 @layer base {
   body {
-    @apply bg-slate-800;
+    @apply bg-slate-900;
   }
 }
