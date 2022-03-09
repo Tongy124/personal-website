@@ -5,73 +5,56 @@ function Nav() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div>
-      <nav className="bg-slate-800">
+      <nav>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center">
               <div className="flex-shrink-0">
-                <img
+                  <h1 className="font-semibold font-ubuntu scale-110 text-white text-2xl">Bruno<span className="font-bold text-salmon">Bold</span></h1>
+                {/* <img
                   className="h-8 w-8"
                   src="https://tailwindui.com/img/logos/workflow-mark-indigo-500.svg"
                   alt="Workflow"
-                />
+                /> */}
               </div>
               <div className="hidden md:block">
-                <div className="ml-10 flex items-baseline space-x-4">
+                <div className="ml-12 flex items-baseline space-x-4">
                   <a
                     href="https://brunobold.com"
-                    className=" hover:bg-gray-700 text-white px-3 py-2 rounded-md text-sm font-medium"
+                    className=" hover:bg-blurpledark text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
-                    Link 1
+                    Home
                   </a>
 
                   <a
                     href="https://brunobold.com"
-                    className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                    className="text-gray-300 hover:bg-blurpledark hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
-                    Link 2
+                    About
                   </a>
 
                   <a
                     href="https://brunobold.com"
-                    className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                    className="text-gray-300 hover:bg-blurpledark hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
-                    Link 3
+                    Projects
                   </a>
 
                   <a
                     href="https://brunobold.com"
-                    className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                    className="text-gray-300 hover:bg-blurpledark hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
-                    Link 4
-                  </a>
-
-                  <a
-                    href="https://brunobold.com"
-                    className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                  >
-                    Link 5
+                    Contact 
                   </a>
                 </div>
               </div>
-            </div>
-            
-            <div className="hidden md:block">
-                <div className="ml-4 flex items-center md:ml-6">
-                    <a
-                        href="https://brunobold.com"
-                        className="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-cyan-600 hover:bg-cyan-700"
-                    >
-                        Link 5
-                    </a>
-                </div>
             </div>
             
             <div className="-mr-2 flex md:hidden">
               <button
                 onClick={() => setIsOpen(!isOpen)}
                 type="button"
-                className="bg-gray-900 inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
+                className="bg-blurpledim inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
                 aria-controls="mobile-menu"
                 aria-expanded="false"
               >
@@ -124,42 +107,36 @@ function Nav() {
           leaveTo="opacity-0 scale-95"
         >
           {(ref) => (
-            <div className="md:hidden" id="mobile-menu">
+            <div className="md:hidden bg-blurpledim rounded-lg" id="mobile-menu">
               <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
                 <a
                   href="https://brunobold.com"
-                  className="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium"
+                  className="hover:bg-blurple- text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
-                  Link 1
+                  Home
                 </a>
 
                 <a
                   href="https://brunobold.com"
-                  className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                  className="text-gray-300 hover:bg-blurpledim hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
-                  Link 2
+                  About
                 </a>
 
                 <a
                   href="https://brunobold.com"
-                  className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                  className="text-gray-300 hover:bg-blurpledim hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
-                  Link 3
+                  Projects
                 </a>
 
                 <a
                   href="https://brunobold.com"
-                  className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                  className="text-gray-300 hover:bg-blurpledim hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
-                  Link 4
+                  Contact
                 </a>
 
-                <a
-                  href="https://brunobold.com"
-                  className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-                >
-                  Link 5
-                </a>
               </div>
             </div>
           )}

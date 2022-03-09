@@ -21,6 +21,6 @@ a {
 
 @layer base {
   body {
-    @apply bg-slate-900;
+    @apply bg-blurple;
   }
 }
