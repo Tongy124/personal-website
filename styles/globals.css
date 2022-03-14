@@ -19,6 +19,12 @@ a {
   box-sizing: border-box;
 }
 
+.aboutme {
+
+  background-image: radial-gradient(#444cf7 0.7px, #F3F3F3 0.7px);
+  background-size: 10px 10px;
+}
+
 @layer base {
   body {
     @apply bg-blurple;

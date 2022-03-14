@@ -49,6 +49,15 @@ function Nav() {
                 </div>
               </div>
             </div>
+
+            <div className="ml-4 flex items-center md:ml-6">
+                <a
+                    href="https://brunobold.com"
+                    className="text-white bg-salmon hover:drop-shadow-md px-3 py-2 rounded-md text-sm font-medium"
+                >
+                    Github
+                </a>
+            </div>
             
             <div className="-mr-2 flex md:hidden">
               <button

@@ -9,6 +9,7 @@ export default function Home() {
       <div>
         <Nav/>
       </div>
+      
       <div className="mt-10 text-center text-white">
         <div>
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold lg:pr-80">Hi, my name is</h1>
@@ -29,7 +30,7 @@ export default function Home() {
         <div className="basis-1/5"/>
       </div>
 
-      <div className="mt-20 bg-white">
+      <div className="mt-20 aboutme">
         <About/>
         <Newscards/>   
       </div>

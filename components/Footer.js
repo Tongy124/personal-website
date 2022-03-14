@@ -11,10 +11,10 @@ function Footer() {
                         <a href="#" className="mr-4 hover:underline md:mr-6 ">About</a>
                     </li>
                     <li>
-                        <a href="#" className="mr-4 hover:underline md:mr-6">Privacy Policy</a>
+                        <a href="#" className="mr-4 hover:underline md:mr-6">LinkedIn</a>
                     </li>
                     <li>
-                        <a href="#" className="mr-4 hover:underline md:mr-6 ">Licensing</a>
+                        <a href="#" className="mr-4 hover:underline md:mr-6 ">Github</a>
                     </li>
                     <li>
                         <a href="#" className="hover:underline">Contact</a>
