@@ -1,25 +1,29 @@
-import Link from 'next/link'
+import Link from 'next/link';
 
 function Footer() {
     return (
         <footer className="p-4 bg-salmon rounded-t-xl shadow md:px-6 md:py-8 dark:bg-gray-800">
             <div className="sm:flex sm:items-center sm:justify-between">
-                <Link href="https://brunobold.com/" className="flex items-center mb-4 sm:mb-0">
+                <a href="https://brunobold.com/" className="flex items-center mb-4 sm:mb-0">
                     {/* <img src="/docs/images/logo.svg" className="mr-3 h-8" alt="Flowbite Logo" /> */}
                     <span className="self-center text-2xl font-semibold whitespace-nowrap text-white">BrunoBold</span>
-                </Link>
+                </a>
                 <ul className="flex flex-wrap items-center mb-6 text-sm text-white sm:mb-0 dark:text-gray-400">
                     <li>
-                        <Link href="#" className="mr-4 hover:underline md:mr-6 ">About</Link>
+                        <Link href="/about">
+                            <a className="mr-4 hover:underline md:mr-6">About</a>
+                        </Link>
                     </li>
                     <li>
-                        <Link href="#" className="mr-4 hover:underline md:mr-6">LinkedIn</Link>
+                        <a href="https://www.linkedin.com/in/bold/" className="mr-4 hover:underline md:mr-6"></a>
                     </li>
                     <li>
-                        <Link href="#" className="mr-4 hover:underline md:mr-6 ">Github</Link>
+                        <a href="https://github.com/Tongy124" className="mr-4 hover:underline md:mr-6">Github</a>
                     </li>
                     <li>
-                        <Link href="#" className="hover:underline">Contact</Link>
+                        <Link href="/contact">
+                            <a className="hover:underline">Contact</a>
+                        </Link>
                     </li>
                 </ul>
             </div>

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Link from 'next/link'
+import Link from 'next/link';
 import { Transition } from "@headlessui/react";
 
 function Nav() {
@@ -22,42 +22,25 @@ function Nav() {
                 <div className="ml-12 flex items-baseline space-x-4">
                   <Link
                     href="/"
-                    className=" hover:bg-gray-200 text-black px-3 py-2 rounded-md text-sm font-medium"
-                  >
-                    Home
-                  </Link>
+                  ><a className=" hover:bg-gray-200 text-black px-3 py-2 rounded-md text-sm font-medium">Home</a></Link>
 
                   <Link
                     href="/about"
-                    className="text-black hover:bg-gray-200 px-3 py-2 rounded-md text-sm font-medium"
-                  >
-                    About
-                  </Link>
+                  ><a className="text-black hover:bg-gray-200 px-3 py-2 rounded-md text-sm font-medium">About</a></Link>
 
                   <Link
                     href="/projects"
-                    className="text-black hover:bg-gray-200 px-3 py-2 rounded-md text-sm font-medium"
-                  >
-                    Projects
-                  </Link>
+                  ><a className="text-black hover:bg-gray-200 px-3 py-2 rounded-md text-sm font-medium">Projects</a></Link>
 
                   <Link
                     href="/contact"
-                    className="text-black hover:bg-gray-200 px-3 py-2 rounded-md text-sm font-medium"
-                  >
-                    Contact 
-                  </Link>
+                  ><a className="text-black hover:bg-gray-200 px-3 py-2 rounded-md text-sm font-medium">Contact</a></Link>
                 </div>
               </div>
             </div>
 
             <div className="ml-4 flex items-center md:ml-6">
-                <Link
-                    href="https://brunobold.com"
-                    className="text-white bg-salmon hover:drop-shadow-md px-3 py-2 rounded-md text-sm font-medium"
-                >
-                    Github
-                </Link>
+              <a href="https://github.com/Tongy124" className="text-white bg-salmon hover:drop-shadow-md px-3 py-2 rounded-md text-sm font-medium">Github</a>
             </div>
             
             <div className="-mr-2 flex md:hidden">
@@ -121,32 +104,27 @@ function Nav() {
               <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
                 <Link
                   href="/"
-                  className="hover:bg-gray-300 text-black block px-3 py-2 rounded-md text-base font-medium"
                 >
-                  Home
+                  <a className="hover:bg-gray-300 text-black block px-3 py-2 rounded-md text-base font-medium">Home</a>
                 </Link>
 
                 <Link
                   href="/about"
-                  className="text-black hover:bg-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
-                  About
+                  <a className="text-black hover:bg-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">About</a>
                 </Link>
 
                 <Link
                   href="/projects"
-                  className="text-black hover:bg-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
-                  Projects
+                  <a className="text-black hover:bg-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Projects</a>
                 </Link>
 
                 <Link
                   href="/contact"
-                  className="text-black hover:bg-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
-                  Contact
+                  <a className="text-black hover:bg-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Contact</a>
                 </Link>
-
               </div>
             </div>
           )}
