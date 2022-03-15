@@ -1,10 +1,12 @@
+import Image from 'next/image'
+
 function about() {
     return (
         <section className="text-gray-600 body-font">
             <div className="container px-5 py-24 mx-auto flex flex-col">
                 <div className="lg:w-4/6 mx-auto bg-white rounded-md">
                     <div className="rounded-lg h-64 overflow-hidden">
-                        <img alt="content" className="object-cover object-center h-full w-full" src="https://dummyimage.com/1200x500"/>
+                        <Image alt="content" className="object-cover object-center h-full w-full" src="https://dummyimage.com/1200x500"/>
                     </div>
                     <div className="flex flex-col sm:flex-row mt-10">
                         <div className="sm:w-1/3 text-center sm:pr-8 sm:py-8">
