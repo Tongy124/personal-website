@@ -6,10 +6,6 @@ import Newscards from '../components/Newscards'
 export default function Home() {
   return (
     <div>
-      <div>
-        <Nav/>
-      </div>
-
       <br/>
       <br/>
       
@@ -37,9 +33,6 @@ export default function Home() {
         <About/>
         <Newscards/>   
       </div>
-
-      <Footer/>
-
     </div>
     
     

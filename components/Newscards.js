@@ -4,14 +4,14 @@ function Newscards() {
         <div className="container px-5 py-24 mx-auto">
             <div className="flex flex-wrap -m-4 bg-white rounded-md">
             <div className="p-4 md:w-1/3">
-                <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden hover:shadow-md">
+                <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden hover:shadow-md hover:duration-200 hover:shadow-md hover:-translate-y-1">
                 <img className="lg:h-48 md:h-36 w-full object-cover object-center" src="https://djmag.com/sites/default/files/article/image/Header-1280x489%20%281%29_0.png" alt="Spotify Banner"/>
                 <div className="p-6">
                     <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">PERSONAL PROJECT</h2>
                     <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Spotify Album Guesser Project</h1>
                     <p className="leading-relaxed mb-3">A recent project that I have been working on after being inspired by wordle. Every day users are given one new album cover from their top artists on their spotify account and are given a finite amount of guesses to correctly guess the album name.</p>
                     <div className="flex items-center flex-wrap ">
-                    <a className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
+                    <a className="text-salmon inline-flex items-center md:mb-2 lg:mb-0">Learn More
                         <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
                         <path d="M5 12h14"></path>
                         <path d="M12 5l7 7-7 7"></path>
@@ -34,14 +34,14 @@ function Newscards() {
             </div>
             
             <div className="p-4 md:w-1/3">
-                <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden hover:shadow-md">
-                <img className="lg:h-48 md:h-36 w-full object-cover object-center" src="https://images2.imgbox.com/20/c1/6Prrcbc5_o.png" alt="blog"/>
+                <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden hover:shadow-md hover:duration-200 hover:shadow-md hover:-translate-y-1">
+                <img className="lg:h-48 md:h-36 w-full object-cover object-center" src="https://images2.imgbox.com/f6/90/5hoKLWdF_o.png" alt="blog"/>
                 <div className="p-6">
                     <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">PERSONAL PROJECT</h2>
                     <h1 className="title-font text-lg font-medium text-gray-900 mb-3">My New Website</h1>
                     <p className="leading-relaxed mb-3">A writeup on the process of how I went about developing my own personal website using NextJS and TailwindCSS.</p>
                     <div className="flex items-center flex-wrap">
-                    <a className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
+                    <a className="text-salmon inline-flex items-center md:mb-2 lg:mb-0" href="https://brunobold.com">Learn More
                         <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
                         <path d="M5 12h14"></path>
                         <path d="M12 5l7 7-7 7"></path>
@@ -71,7 +71,7 @@ function Newscards() {
                     <h1 className="title-font text-lg font-medium text-gray-900 mb-3">EMPTY FIELD</h1>
                     <p className="leading-relaxed mb-3">EMPTY FIELD</p>
                     <div className="flex items-center flex-wrap ">
-                    <a className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
+                    <a className="text-salmon inline-flex items-center md:mb-2 lg:mb-0">Learn More
                         <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
                         <path d="M5 12h14"></path>
                         <path d="M12 5l7 7-7 7"></path>

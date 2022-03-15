@@ -20,28 +20,28 @@ function Nav() {
               <div className="hidden md:block">
                 <div className="ml-12 flex items-baseline space-x-4">
                   <a
-                    href="https://brunobold.com"
+                    href="/"
                     className=" hover:bg-gray-200 text-black px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Home
                   </a>
 
                   <a
-                    href="https://brunobold.com"
+                    href="/about"
                     className="text-black hover:bg-gray-200 px-3 py-2 rounded-md text-sm font-medium"
                   >
                     About
                   </a>
 
                   <a
-                    href="https://brunobold.com"
+                    href="/projects"
                     className="text-black hover:bg-gray-200 px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Projects
                   </a>
 
                   <a
-                    href="https://brunobold.com"
+                    href="/contact"
                     className="text-black hover:bg-gray-200 px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Contact 
@@ -119,28 +119,28 @@ function Nav() {
             <div className="md:hidden bg-gray-200 rounded-b-xl" id="mobile-menu">
               <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
                 <a
-                  href="https://brunobold.com"
+                  href="/"
                   className="hover:bg-gray-300 text-black block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Home
                 </a>
 
                 <a
-                  href="https://brunobold.com"
+                  href="/about"
                   className="text-black hover:bg-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
                   About
                 </a>
 
                 <a
-                  href="https://brunobold.com"
+                  href="/projects"
                   className="text-black hover:bg-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Projects
                 </a>
 
                 <a
-                  href="https://brunobold.com"
+                  href="/contact"
                   className="text-black hover:bg-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Contact
