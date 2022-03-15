@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import link from 'next/link'
 import { Transition } from "@headlessui/react";
 
 function Nav() {
@@ -19,44 +20,44 @@ function Nav() {
               </div>
               <div className="hidden md:block">
                 <div className="ml-12 flex items-baseline space-x-4">
-                  <a
+                  <link
                     href="/"
                     className=" hover:bg-gray-200 text-black px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Home
-                  </a>
+                  </link>
 
-                  <a
+                  <link
                     href="/about"
                     className="text-black hover:bg-gray-200 px-3 py-2 rounded-md text-sm font-medium"
                   >
                     About
-                  </a>
+                  </link>
 
-                  <a
+                  <link
                     href="/projects"
                     className="text-black hover:bg-gray-200 px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Projects
-                  </a>
+                  </link>
 
-                  <a
+                  <link
                     href="/contact"
                     className="text-black hover:bg-gray-200 px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Contact 
-                  </a>
+                  </link>
                 </div>
               </div>
             </div>
 
             <div className="ml-4 flex items-center md:ml-6">
-                <a
+                <link
                     href="https://brunobold.com"
                     className="text-white bg-salmon hover:drop-shadow-md px-3 py-2 rounded-md text-sm font-medium"
                 >
                     Github
-                </a>
+                </link>
             </div>
             
             <div className="-mr-2 flex md:hidden">
@@ -118,33 +119,33 @@ function Nav() {
           {(ref) => (
             <div className="md:hidden bg-gray-200 rounded-b-xl" id="mobile-menu">
               <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-                <a
+                <link
                   href="/"
                   className="hover:bg-gray-300 text-black block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Home
-                </a>
+                </link>
 
-                <a
+                <link
                   href="/about"
                   className="text-black hover:bg-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
                   About
-                </a>
+                </link>
 
-                <a
+                <link
                   href="/projects"
                   className="text-black hover:bg-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Projects
-                </a>
+                </link>
 
-                <a
+                <link
                   href="/contact"
                   className="text-black hover:bg-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Contact
-                </a>
+                </link>
 
               </div>
             </div>
