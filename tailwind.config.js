@@ -11,7 +11,7 @@ module.exports = {
       blurpledark: "#390EC5",
       blurpledarker: "#270989",
 
-      "salmon": "#EE9CC1",
+      "salmon": "#6EBF8B",
 
       "backgroundcolour": "#F3F3F3"
     },

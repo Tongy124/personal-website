@@ -10,7 +10,7 @@ function Nav() {
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center">
               <div className="flex-shrink-0">
-                  <h1 className="font-semibold font-ubuntu scale-110 text-white text-2xl">Bruno<span className="font-bold text-salmon">Bold</span></h1>
+                  <h1 className="font-semibold font-ubuntu scale-110 text-slate-   text-2xl">Bruno<span className="font-bold text-salmon">Bold</span></h1>
                 {/* <img
                   className="h-8 w-8"
                   src="https://tailwindui.com/img/logos/workflow-mark-indigo-500.svg"
@@ -21,28 +21,28 @@ function Nav() {
                 <div className="ml-12 flex items-baseline space-x-4">
                   <a
                     href="https://brunobold.com"
-                    className=" hover:bg-blurpledark text-white px-3 py-2 rounded-md text-sm font-medium"
+                    className=" hover:bg-gray-200 text-black px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Home
                   </a>
 
                   <a
                     href="https://brunobold.com"
-                    className="text-gray-300 hover:bg-blurpledark hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                    className="text-black hover:bg-gray-200 px-3 py-2 rounded-md text-sm font-medium"
                   >
                     About
                   </a>
 
                   <a
                     href="https://brunobold.com"
-                    className="text-gray-300 hover:bg-blurpledark hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                    className="text-black hover:bg-gray-200 px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Projects
                   </a>
 
                   <a
                     href="https://brunobold.com"
-                    className="text-gray-300 hover:bg-blurpledark hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                    className="text-black hover:bg-gray-200 px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Contact 
                   </a>
@@ -63,7 +63,7 @@ function Nav() {
               <button
                 onClick={() => setIsOpen(!isOpen)}
                 type="button"
-                className="bg-blurpledim inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
+                className="bg-gray-200 inline-flex items-center justify-center p-2 rounded-md text-black hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
                 aria-controls="mobile-menu"
                 aria-expanded="false"
               >
@@ -116,32 +116,32 @@ function Nav() {
           leaveTo="opacity-0 scale-95"
         >
           {(ref) => (
-            <div className="md:hidden bg-blurpledim rounded-lg" id="mobile-menu">
+            <div className="md:hidden bg-gray-200 rounded-b-xl" id="mobile-menu">
               <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
                 <a
                   href="https://brunobold.com"
-                  className="hover:bg-blurple- text-white block px-3 py-2 rounded-md text-base font-medium"
+                  className="hover:bg-gray-300 text-black block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Home
                 </a>
 
                 <a
                   href="https://brunobold.com"
-                  className="text-gray-300 hover:bg-blurpledim hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                  className="text-black hover:bg-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
                   About
                 </a>
 
                 <a
                   href="https://brunobold.com"
-                  className="text-gray-300 hover:bg-blurpledim hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                  className="text-black hover:bg-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Projects
                 </a>
 
                 <a
                   href="https://brunobold.com"
-                  className="text-gray-300 hover:bg-blurpledim hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                  className="text-black hover:bg-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Contact
                 </a>

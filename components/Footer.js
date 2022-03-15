@@ -1,6 +1,6 @@
 function Footer() {
     return (
-        <footer className="p-4 bg-blurple rounded-lg shadow md:px-6 md:py-8 dark:bg-gray-800">
+        <footer className="p-4 bg-salmon rounded-t-xl shadow md:px-6 md:py-8 dark:bg-gray-800">
             <div className="sm:flex sm:items-center sm:justify-between">
                 <a href="https://flowbite.com" className="flex items-center mb-4 sm:mb-0">
                     {/* <img src="/docs/images/logo.svg" className="mr-3 h-8" alt="Flowbite Logo" /> */}
@@ -21,7 +21,7 @@ function Footer() {
                     </li>
                 </ul>
             </div>
-            <hr className="my-6 border-blurpledarker sm:mx-auto dark:border-gray-700 lg:my-8" />
+            <hr className="my-6 border-white sm:mx-auto dark:border-gray-700 lg:my-8" />
             <span className="block text-sm text-white sm:text-center">© 2022 BrunoBold. All Rights Reserved.</span>
         </footer>
     )
