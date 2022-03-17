@@ -16,7 +16,8 @@ module.exports = {
 
       "backgroundcolour": "#F3F3F3"
     },
-    extend: {},
+    extend: {
+    },
   },
   plugins: [
     require('flowbite/plugin')
