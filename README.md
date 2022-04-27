@@ -1,5 +1,5 @@
 # Personal Website - Built in NextJS
-<a href="https://nextjs.org/"><img src="https://img.shields.io/badge/Made%20with-React-blue.svg"/></a>
+<a href="https://nextjs.org/"><img src="https://img.shields.io/badge/Made%20with-NextJS-blue.svg"/></a>
 
 <strong>This project is my first attempt at building a portfolio website for myself.</strong>
 
